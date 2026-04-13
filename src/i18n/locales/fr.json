@@ -1,0 +1,67 @@
+{
+  "nav": {
+    "about": "À propos",
+    "work": "Projets",
+    "testimonials": "Témoignages",
+    "resume": "CV",
+    "contact": "Contact"
+  },
+ "hero": {
+  "greeting": "Bonjour ! 👋🏿 JE SUIS",
+  "name": "JOELDY SIMON TSINA",
+  "subtitle": "Développeuse Full-Stack · DevSecOps · Créatrice tech\n Je construis, je partage, j’évolue en public.",
+  "scrollDown": "Défiler vers le bas"
+},
+  "about": {
+  "subText": "Introduction",
+  "title": "Qui suis-je ?",
+  "description": "Salut ! Je suis Joeldy Simon TSINA, développeuse Full-Stack basée en France, passionnée par le DevSecOps et fondatrice de MeggieOnTheStack.\n\nMon ambition est de devenir une voix féminine forte dans la tech — ne plus seulement la suivre, mais aussi construire, partager et contribuer à son évolution.\n\nJe conçois des applications web scalables, travaille sur le front-end et le back-end, et explore des solutions orientées data avec des technologies comme React, Node.js, Python et les outils web modernes.",
+  
+  "interest1": "Fondatrice de MeggieOnTheStack 🎥",
+  "interest2": "DevSecOps & systèmes scalables 🔐",
+  "interest3": "Construire et partager en public 💡",
+
+  "quote": "Je ne fais pas que suivre la tech — je la façonne.",
+  "screenHint": "Clique sur l’écran pour changer"
+},
+  "experience": {
+    "subText": "Ce que j'ai accompli jusqu'ici",
+    "title": "Expérience professionnelle."
+  },
+  "tech": {
+    "subText": "Technologies",
+    "title": "Compétences techniques."
+  },
+  "works": {
+    "subText": "Mes travaux récents",
+    "title": "Projets.",
+    "description": "Voici quelques projets sur lesquels j'ai travaillé récemment. Chacun est brièvement décrit avec des liens vers les dépôts et les démos.",
+    "liveDemo": "Démo en direct"
+  },
+  "testimonials": {
+    "subText": "Ce que disent les autres",
+    "title": "Témoignages."
+  },
+  "resume": {
+    "title": "Mon CV",
+    "subText": "Télécharger ou prévisualiser",
+    "download": "Télécharger le PDF",
+    "preview": "Aperçu du CV",
+    "noPreview": "L'aperçu PDF n'est pas disponible. Veuillez télécharger le fichier.",
+    "langNote": ""
+  },
+  "contact": {
+  "subText": "Contactez-moi",
+  "title": "Contact.",
+  "name": "Votre nom",
+  "namePlaceholder": "Comment vous appelez-vous ?",
+  "email": "Votre e-mail",
+  "emailPlaceholder": "Quelle est votre adresse e-mail ?",
+  "message": "Votre message",
+  "messagePlaceholder": "Que souhaitez-vous me dire ?",
+  "send": "Envoyer",
+  "sending": "Envoi en cours...",
+  "successMsg": "Merci. Je vous répondrai dès que possible.",
+  "errorMsg": "Une erreur s'est produite. Veuillez réessayer."
+}
+}

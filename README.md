@@ -112,11 +112,7 @@ VITE_APP_EMAILJS_PUBLIC_KEY=your_public_key
 
 ## Contact
 
-**Megane Farelle Demgne**
-- Email: [megane.farelle@gmail.com](mailto:megane.farelle@gmail.com)
-- LinkedIn: [Megane Farelle Demgne](https://www.linkedin.com/in/megane-farelle-demgne)
-- GitHub: [MeganeFarelle](https://github.com/MeganeFarelle)
-- Instagram: [@MeggieOnTheStack](https://www.instagram.com/meggieOnTheStack)
+
 
 ---
 

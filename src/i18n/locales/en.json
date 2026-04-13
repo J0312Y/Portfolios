@@ -1,0 +1,68 @@
+{
+  "nav": {
+    "about": "About",
+    "work": "Work",
+    "testimonials": "Testimonials",
+    "resume": "Resume",
+    "contact": "Contact"
+  },
+  "hero": {
+  "greeting": "Hi there! 👋🏿 I'M",
+  "name": "JOELDY SIMON TSINA",
+  "subtitle": "Full-Stack Developer · DevSecOps · Tech Creator\n I build, I share, I grow in public.",
+  "scrollDown": "Scroll down"
+},
+  "about": {
+  "subText": "Introduction",
+  "title": "Know Who I Am.",
+  "description": "Hi! I'm Joeldy Simon TSINA a Full-Stack Developer based in France, DevSecOps enthusiast, and founder of MeggieOnTheStack.\n\nMy ambition is to become a strong female voice in tech not just following it, but building, speaking, and sharing to shape it.\n\nI build scalable web applications, work across front-end and back-end, and explore data-driven solutions using technologies like React, Node.js, Python, and modern web tools.",
+  
+  "interest1": "Founder of MeggieOnTheStack 🎥",
+  "interest2": "DevSecOps & scalable systems 🔐",
+  "interest3": "Building & sharing in public 💡",
+
+  "quote": "I don’t just follow tech — I shape it.",
+  "screenHint": "Click the screen to toggle"
+},
+  "experience": {
+    "subText": "What I have done so far",
+    "title": "Work Experience."
+  },
+  "tech": {
+    "subText": "Technologies",
+    "title": "Professional Skillset."
+  },
+  "works": {
+    "subText": "My Recent Works",
+    "title": "Projects.",
+    "description": "Here are a few projects I've worked on recently. Each is briefly described with links to the code repository and live demos where available.",
+    "liveDemo": "Live Demo"
+  },
+  "testimonials": {
+    "subText": "What others say",
+    "title": "Testimonials."
+  },
+  "resume": {
+    "title": "My Resume",
+    "subText": "Download or preview",
+    "download": "Download PDF",
+    "preview": "Resume Preview",
+    "noPreview": "PDF preview not available. Please download the file.",
+    "langNote": ""
+  },
+  "contact": {
+    "subText": "Get in touch",
+    "title": "Contact.",
+    "name": "Your Name",
+    "namePlaceholder": "What's your name?",
+    "email": "Your Email",
+    "emailPlaceholder": "What's your email?",
+    "message": "Your Message",
+    "messagePlaceholder": "What do you want to say?",
+    "send": "Send",
+    "sending": "Sending...",
+    "successMsg": "Thank you. I will get back to you as soon as possible.",
+    "errorMsg": "Something went wrong. Please try again."
+  }
+
+}
