@@ -14,126 +14,134 @@ import {
   threejs,
 } from "../assets";
 
-// ── Icons for Tech Section ──
+// ── Icons (Utilisation des imports existants ou liens sécurisés) ──
 import python from "../assets/tech2/py2.png";
-import java from "../assets/tech2/java2.png";
 import php from "../assets/tech2/php2.png";
-import bash from "../assets/tech2/bash2.png";
 import nodejsIcon from "../assets/tech2/nodejs.png";
-import mongodbIcon from "../assets/tech2/mongodb.png";
 import mysql from "../assets/tech2/mysql.png";
 import dockerIcon from "../assets/tech2/docker.png";
 import gitIcon from "../assets/tech2/git.png";
-import github from "../assets/tech2/github.png";
-import postman from "../assets/tech2/postman.png";
-import aws from "../assets/tech2/aws.png";
-import composer from "../assets/tech2/composer2.png";
-import bootstrapIcon from "../assets/tech2/bootstrap.png";
-import chartjs from "../assets/tech2/chartjs.png";
 import reactIcon from "../assets/tech2/react2.png";
 import tailwindIcon from "../assets/tech2/tailwindcss.png";
 import javascriptIcon from "../assets/tech2/js2.png";
 
 export const navLinks = [
-  { id: "about", title: "About" },
-  { id: "work", title: "Work" },
+  { id: "about", title: "À Propos" },
+  { id: "work", title: "Expérience" },
   { id: "contact", title: "Contact" },
 ];
 
 const services = [
-  { title: "Full-Stack Developer", icon: web },
-  { title: "IT Infrastructure & Security", icon: backend },
-  { title: "Mobile App Development", icon: mobile },
-  { title: "Digital Solutions Architect", icon: creator },
+  { title: "Team Lead Infrastructure IT", icon: backend },
+  { title: "Software Engineer Full-Stack", icon: web },
+  { title: "Expert Systèmes NGBSS & VAS", icon: creator },
+  { title: "Solutions Cloud & Virtualisation", icon: mobile },
 ];
 
 const technologies = [
-  { name: "JavaScript", icon: javascriptIcon },
-  { name: "Python", icon: python },
-  { name: "Java", icon: java },
-  { name: "PHP", icon: php },
-  { name: "Composer", icon: composer },
-  { name: "Bash", icon: bash },
-  { name: "React", icon: reactIcon },
+  { name: "Python / Bash", icon: python },
+  { name: "React JS / Next JS", icon: reactIcon },
   { name: "Node.js", icon: nodejsIcon },
-  { name: "MongoDB", icon: mongodbIcon },
-  { name: "MySQL", icon: mysql },
-  { name: "Docker", icon: dockerIcon },
+  { name: "PHP / Laravel", icon: php },
+  { name: "MySQL / GaussDB", icon: mysql },
+  { name: "Docker / VMware", icon: dockerIcon },
   { name: "Git", icon: gitIcon },
-  { name: "GitHub", icon: github },
-  { name: "Postman", icon: postman },
-  { name: "AWS", icon: aws },
   { name: "Tailwind CSS", icon: tailwindIcon },
-  { name: "Bootstrap", icon: bootstrapIcon },
-  { name: "Chart.js", icon: chartjs },
+  { name: "Linux / Windows Server", icon: javascriptIcon }, // Utilisation de JS icon comme placeholder
 ];
 
 const experiences = [
   {
-    title: "Co-Founder & Full-Stack Developer",
-    company_name: "Lamuka",
-    icon: web,
-    iconBg: "#1a0030",
-    date: "2026 - Present",
+    title: "Team Lead IT Infrastructure & Software Engineer",
+    company_name: "Huawei Congo Representative Office",
+    icon: backend,
+    iconBg: "#E6DEDD",
+    date: "Janvier 2024 - Présent",
     points: [
-      "Leading technical architecture and development for the African digital ecosystem.",
-      "Developing offline-first applications resilient to infrastructure challenges.",
-      "Implementing secure mobile money integrations (MTN/Airtel) for e-commerce.",
-      "Managing server/infrastructure for enterprise ERP and POS solutions.",
+      "Supervision technique de l'infrastructure NGBSS (CRM, CBS, VAS) pour les opérateurs majeurs (MTN, Airtel, Congo Telecom).",
+      "Gestion des incidents critiques de niveau 2/3, monitoring hardware via iBMC et optimisation des performances systèmes.",
+      "Déploiement et automatisation de tâches d'administration via scripts Python et Bash.",
+      "Configuration de la sécurité réseau (Firewalls FortiGate/Eudemon) et gestion de la continuité d'activité (Disaster Recovery).",
+      "Intégration de solutions ERP avec les plateformes backend et systèmes d'authentification AAA/BRAS."
     ],
   },
-];
-
-const testimonials = [
   {
-    testimonial: "The digital ecosystem built for our local operations is highly efficient and scalable.",
-    name: "Strategic Partner",
-    designation: "COO",
-    company: "Lamuka",
-    image: "https://randomuser.me/api/portraits/men/32.jpg",
+    title: "Gestionnaire Expérience Client (Stage)",
+    company_name: "Airtel Congo",
+    icon: mobile,
+    iconBg: "#383E56",
+    date: "2022 - 2023",
+    points: [
+      "Analyse des besoins clients et création de bases de données pour le suivi des KPI de performance.",
+      "Support technique de premier niveau et résolution des problématiques liées aux services télécoms.",
+    ],
   },
 ];
 
 const projects = [
   {
     name: "KinaCoach",
-    description: "A comprehensive health and fitness coaching application designed to promote proactive prevention in the African healthcare sector.",
+    description: "Solution HealthTech visant la prévention proactive. Application de coaching santé permettant un suivi personnalisé pour le bien-être des utilisateurs au Congo.",
     tags: [
-      { name: "React", color: "blue-text-gradient" },
+      { name: "React JS", color: "blue-text-gradient" },
       { name: "HealthTech", color: "green-text-gradient" },
+      { name: "API", color: "pink-text-gradient" },
     ],
-    image: "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=500",
+    image: "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=500",
     source_code_link: "http://kina-psi.vercel.app/",
   },
   {
     name: "Lamuka Market",
-    description: "A collaborative marketplace platform facilitating local trade and digital connectivity within the RDC market.",
+    description: "Marketplace collaborative locale avec système de suivi de commande en temps réel et gestion logistique intégrée pour les commerçants du Congo.",
     tags: [
-      { name: "Full-Stack", color: "orange-text-gradient" },
-      { name: "Marketplace", color: "pink-text-gradient" },
+      { name: "Fullstack", color: "orange-text-gradient" },
+      { name: "E-commerce", color: "blue-text-gradient" },
+      { name: "NextJS", color: "green-text-gradient" },
     ],
     image: "https://images.unsplash.com/photo-1557821552-17105176677c?w=500",
     source_code_link: "https://marche-gamma.vercel.app/",
   },
   {
-    name: "KoloPay",
-    description: "A digital tontine and savings application focused on secure financial management and payment default handling.",
+    name: "Kolo Tontine",
+    description: "Digitalisation de l'épargne communautaire (tontine). Système sécurisé de gestion des cotisations, des tours de rôle et des paiements.",
     tags: [
       { name: "Fintech", color: "green-text-gradient" },
-      { name: "Security", color: "blue-text-gradient" },
+      { name: "Security", color: "pink-text-gradient" },
+      { name: "MySQL", color: "white-text-gradient" },
     ],
-    image: "https://images.unsplash.com/photo-1554224155-8d04cb27cd6c?w=500",
+    image: "https://images.unsplash.com/photo-1579621970563-ebec7560ff3e?w=500",
     source_code_link: "https://kolopay-six.vercel.app/",
   },
   {
     name: "MacCloud",
-    description: "An infrastructure and cloud storage management solution optimized for enterprise data handling and hardware integration.",
+    description: "Solution d'infrastructure Cloud permettant l'accès distant à des environnements MacOS pour les développeurs d'applications iOS/Mac.",
     tags: [
       { name: "Cloud", color: "blue-text-gradient" },
-      { name: "Infrastructure", color: "orange-text-gradient" },
+      { name: "Virtualisation", color: "orange-text-gradient" },
+      { name: "Infrastructure", color: "green-text-gradient" },
     ],
     image: "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=500",
     source_code_link: "https://mac-cloud.vercel.app/",
+  },
+  {
+    name: "BonResto",
+    description: "Plateforme de découverte et de réservation de restaurants avec menus digitaux et géolocalisation des meilleurs établissements locaux.",
+    tags: [
+      { name: "Web", color: "pink-text-gradient" },
+      { name: "Geoloc", color: "green-text-gradient" },
+    ],
+    image: "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=500",
+    source_code_link: "#",
+  },
+];
+
+const testimonials = [
+  {
+    testimonial: "Simon Joeldy a su stabiliser nos infrastructures critiques NGBSS tout en automatisant nos rapports quotidiens.",
+    name: "Direction Technique",
+    designation: "Manager",
+    company: "Huawei / Partenaires Telecom",
+    image: "https://randomuser.me/api/portraits/men/5.jpg",
   },
 ];
 
