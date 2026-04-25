@@ -35,7 +35,7 @@ const services = [
   { title: "Co-Founder & Tech Lead @ Lamuka", icon: web },
   { title: "Team Lead IT Infrastructure", icon: backend },
   { title: "Software Engineer Full-Stack", icon: creator },
-  { title: "Cloud & Solutions Architect", icon: mobile },
+  { title: "QA Engineer & Data Analyst", icon: mobile },
 ];
 
 const technologies = [
@@ -47,6 +47,7 @@ const technologies = [
   { name: "Docker / VMware", icon: dockerIcon },
   { name: "Git", icon: gitIcon },
   { name: "Tailwind CSS", icon: tailwindIcon },
+  { name: "QA & Testing Tools", icon: javascriptIcon },
 ];
 
 const experiences = [
@@ -57,80 +58,95 @@ const experiences = [
     iconBg: "#1a0030",
     date: "2026 - Présent",
     points: [
-      "Co-fondateur et concepteur de l'écosystème digital Lamuka, visant à transformer les services numériques en RDC et au Congo.",
-      "Développement de solutions SaaS (Bonresto, Lamuka Market) avec une architecture 'offline-first' adaptée aux contraintes locales.",
-      "Implémentation de systèmes de paiement mobile (MoMo/Airtel Money) pour faciliter l'inclusion financière.",
-      "Supervision de la stratégie produit et de l'architecture technique (UI/UX et Back-end).",
+      "Fondateur de l'écosystème Lamuka : Architecture de solutions SaaS intelligentes et gestionnaire de connaissances basé sur l'IA.",
+      "Développement de Lamuka AI, un assistant centralisant les données d'entreprise pour booster la productivité interne.",
+      "Conception de plateformes e-commerce et Fintech (Lamuka Market, Kolo Tontine) adaptées au marché africain.",
+      "Pilotage technique et vision produit pour la transformation digitale des entreprises locales.",
     ],
   },
   {
     title: "Team Lead IT Infrastructure & Software Engineer",
-    company_name: "Huawei Congo",
+    company_name: "Huawei Congo Representative Office",
     icon: backend,
     iconBg: "#E6DEDD",
     date: "Janvier 2024 - Présent",
     points: [
-      "Supervision des infrastructures NGBSS (CRM, CBS, VAS) pour les opérateurs télécoms majeurs.",
-      "Gestion des incidents critiques et maintenance préventive (Disaster Recovery, Patching).",
-      "Automatisation des processus via Python et Bash pour optimiser la performance des plateformes.",
+      "Supervision des infrastructures critiques pour les grands opérateurs.",
+      "Gestion d'incidents critiques L2/L3 et monitoring hardware via iBMC.",
+      "Automatisation de l'administration système via scripts Python/Bash et optimisation de GaussDB.",
+      "Maintenance de la continuité d'activité (Disaster Recovery) et déploiement de patchs critiques.",
+    ],
+  },
+  {
+    title: "Gestionnaire Client & QA Engineer (Stage)",
+    company_name: "Airtel Congo",
+    icon: mobile,
+    iconBg: "#383E56",
+    date: "2022 - 2023",
+    points: [
+      "Assurance Qualité (QA) : Tests fonctionnels et validation des fonctionnalités des logiciels internes.",
+      "Analyse de données et création de tableaux de bord KPI pour le suivi de l'expérience client.",
+      "Identification proactive des anomalies systèmes et amélioration des processus de support.",
     ],
   },
 ];
 
 const testimonials = [
   {
-    testimonial: "L'approche de Simon sur l'architecture technique et le SaaS a été déterminante pour la croissance de Lamuka.",
-    name: "Partenaire Stratégique",
-    designation: "Product Owner",
-    company: "Lamuka",
+    testimonial: "Simon possède une vision rare qui combine une maîtrise profonde de l'infrastructure et une agilité exceptionnelle dans le développement de SaaS pilotés par l'IA.",
+    name: "Direction Technique",
+    designation: "Tech Partner",
+    company: "Lamuka Écosystème",
     image: "https://randomuser.me/api/portraits/men/32.jpg",
   },
 ];
 
 const projects = [
   {
-    name: "Bonresto (SaaS)",
-    description: "ERP/POS complet pour la restauration. Gestion en temps réel des commandes, menus digitaux et réservations, conçu pour une adoption commerciale rapide.",
-    tags: [
-      { name: "SaaS", color: "blue-text-gradient" },
-      { name: "ERP/POS", color: "orange-text-gradient" },
-    ],
-    image: "https://images.unsplash.com/photo-1554118811-1e0d58224f24?w=500",
-    source_code_link: "#",
-  },
-  {
     name: "Lamuka AI",
-    description: "Plateforme intelligente automatisant la recherche d'emploi et l'assistance à la candidature grâce à des modèles d'IA adaptés aux profils locaux.",
+    description: "Assistant de connaissances d'entreprise. Centralise les documents et outils pour répondre aux questions des équipes et automatiser les workflows internes.",
     tags: [
-      { name: "IA", color: "pink-text-gradient" },
-      { name: "Automation", color: "green-text-gradient" },
+      { name: "AI/LLM", color: "pink-text-gradient" },
+      { name: "Knowledge Management", color: "blue-text-gradient" },
+      { name: "SaaS", color: "green-text-gradient" },
     ],
     image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=500",
     source_code_link: "#",
   },
   {
-    name: "Lamuka Market",
-    description: "Marketplace collaborative locale connectant les vendeurs et acheteurs avec un suivi logistique et paiement mobile intégré.",
+    name: "Bonresto (ERP)",
+    description: "Solution SaaS de gestion complète pour restaurants. Inclut un système POS, la gestion des stocks, et des menus digitaux pour une gestion simplifiée.",
     tags: [
-      { name: "Marketplace", color: "orange-text-gradient" },
-      { name: "Paiement", color: "blue-text-gradient" },
+      { name: "ERP", color: "blue-text-gradient" },
+      { name: "ERP", color: "orange-text-gradient" },
+      { name: "FullStack", color: "green-text-gradient" },
+    ],
+    image: "https://images.unsplash.com/photo-1554118811-1e0d58224f24?w=500",
+    source_code_link: "#",
+  },
+  {
+    name: "Lamuka Market",
+    description: "Marketplace collaborative locale facilitant le commerce avec suivi de commande en temps réel et paiements mobiles intégrés.",
+    tags: [
+      { name: "E-commerce", color: "blue-text-gradient" },
+      { name: "Logistique", color: "orange-text-gradient" },
     ],
     image: "https://images.unsplash.com/photo-1557821552-17105176677c?w=500",
     source_code_link: "https://marche-gamma.vercel.app/",
   },
   {
     name: "Kolo Tontine",
-    description: "Application de finance collaborative sécurisée pour la gestion des tontines, incluant la gestion des défauts de paiement et l'épargne communautaire.",
+    description: "Plateforme Fintech sécurisée pour la gestion de tontines communautaires, l'épargne collaborative et le scoring de confiance.",
     tags: [
       { name: "Fintech", color: "green-text-gradient" },
-      { name: "Sécurité", color: "pink-text-gradient" },
+      { name: "Security", color: "pink-text-gradient" },
     ],
     image: "https://images.unsplash.com/photo-1579621970563-ebec7560ff3e?w=500",
     source_code_link: "https://kolopay-six.vercel.app/",
   },
   {
     name: "KinaCoach",
-    description: "Application de santé et fitness axée sur la prévention proactive dans le secteur médical africain.",
+    description: "Application HealthTech axée sur le bien-être et la prévention proactive, offrant un suivi personnalisé aux utilisateurs.",
     tags: [
       { name: "HealthTech", color: "blue-text-gradient" },
     ],
@@ -139,9 +155,10 @@ const projects = [
   },
   {
     name: "MacCloud",
-    description: "Infrastructure cloud dédiée à la virtualisation d'environnements MacOS pour les développeurs.",
+    description: "Service Cloud permettant d'accéder à des environnements macOS distants pour les développeurs et les tests d'applications iOS.",
     tags: [
       { name: "Cloud", color: "orange-text-gradient" },
+      { name: "Infrastructure", color: "blue-text-gradient" },
     ],
     image: "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=500",
     source_code_link: "https://mac-cloud.vercel.app/",
