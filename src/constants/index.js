@@ -78,7 +78,7 @@ const experiences = [
     ],
   },
   {
-    title: "Gestionnaire Client & QA Engineer (Stage)",
+    title: "QA Engineer (Stage)",
     company_name: "Airtel Congo",
     icon: mobile,
     iconBg: "#383E56",
