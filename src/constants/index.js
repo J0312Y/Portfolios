@@ -14,23 +14,25 @@ import {
   threejs,
 } from "../assets";
 
-// ── New tech icons ──
+// ── Icons for Tech Section ──
 import python from "../assets/tech2/py2.png";
+import java from "../assets/tech2/java2.png";
 import php from "../assets/tech2/php2.png";
+import bash from "../assets/tech2/bash2.png";
 import nodejsIcon from "../assets/tech2/nodejs.png";
 import mongodbIcon from "../assets/tech2/mongodb.png";
 import mysql from "../assets/tech2/mysql.png";
 import dockerIcon from "../assets/tech2/docker.png";
 import gitIcon from "../assets/tech2/git.png";
+import github from "../assets/tech2/github.png";
+import postman from "../assets/tech2/postman.png";
+import aws from "../assets/tech2/aws.png";
+import composer from "../assets/tech2/composer2.png";
+import bootstrapIcon from "../assets/tech2/bootstrap.png";
+import chartjs from "../assets/tech2/chartjs.png";
 import reactIcon from "../assets/tech2/react2.png";
 import tailwindIcon from "../assets/tech2/tailwindcss.png";
 import javascriptIcon from "../assets/tech2/js2.png";
-
-// ── Project images (Remplacez ces chemins par vos images réelles) ──
-import kinacoach from "../assets/kinacoach.png";
-import lamuka from "../assets/lamuka.png";
-import kolopay from "../assets/kolopay.png";
-import maccloud from "../assets/maccloud.png";
 
 export const navLinks = [
   { id: "about", title: "About" },
@@ -47,15 +49,23 @@ const services = [
 
 const technologies = [
   { name: "JavaScript", icon: javascriptIcon },
+  { name: "Python", icon: python },
+  { name: "Java", icon: java },
+  { name: "PHP", icon: php },
+  { name: "Composer", icon: composer },
+  { name: "Bash", icon: bash },
   { name: "React", icon: reactIcon },
   { name: "Node.js", icon: nodejsIcon },
-  { name: "PHP", icon: php },
-  { name: "MySQL", icon: mysql },
   { name: "MongoDB", icon: mongodbIcon },
+  { name: "MySQL", icon: mysql },
   { name: "Docker", icon: dockerIcon },
   { name: "Git", icon: gitIcon },
+  { name: "GitHub", icon: github },
+  { name: "Postman", icon: postman },
+  { name: "AWS", icon: aws },
   { name: "Tailwind CSS", icon: tailwindIcon },
-  { name: "Python", icon: python },
+  { name: "Bootstrap", icon: bootstrapIcon },
+  { name: "Chart.js", icon: chartjs },
 ];
 
 const experiences = [
@@ -66,19 +76,19 @@ const experiences = [
     iconBg: "#1a0030",
     date: "2026 - Present",
     points: [
-      "Leading the technical architecture and development of digital solutions for the African market.",
-      "Developing offline-first applications to overcome regional infrastructure challenges.",
-      "Implementing secure Mobile Money payment integrations (MTN/Airtel) for local platforms.",
-      "Managing server infrastructure and deployment of enterprise ERP/POS solutions.",
+      "Leading technical architecture and development for the African digital ecosystem.",
+      "Developing offline-first applications resilient to infrastructure challenges.",
+      "Implementing secure mobile money integrations (MTN/Airtel) for e-commerce.",
+      "Managing server/infrastructure for enterprise ERP and POS solutions.",
     ],
   },
 ];
 
 const testimonials = [
   {
-    testimonial: "The work on our digital ecosystem has been transformative for our local operations.",
-    name: "Partner",
-    designation: "Strategic Lead",
+    testimonial: "The digital ecosystem built for our local operations is highly efficient and scalable.",
+    name: "Strategic Partner",
+    designation: "COO",
     company: "Lamuka",
     image: "https://randomuser.me/api/portraits/men/32.jpg",
   },
@@ -87,12 +97,12 @@ const testimonials = [
 const projects = [
   {
     name: "KinaCoach",
-    description: "A health and fitness coaching application designed to promote proactive prevention and wellness in the African healthcare sector.",
+    description: "A comprehensive health and fitness coaching application designed to promote proactive prevention in the African healthcare sector.",
     tags: [
       { name: "React", color: "blue-text-gradient" },
       { name: "HealthTech", color: "green-text-gradient" },
     ],
-    image: kinacoach,
+    image: "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=500",
     source_code_link: "http://kina-psi.vercel.app/",
   },
   {
@@ -102,7 +112,7 @@ const projects = [
       { name: "Full-Stack", color: "orange-text-gradient" },
       { name: "Marketplace", color: "pink-text-gradient" },
     ],
-    image: lamuka,
+    image: "https://images.unsplash.com/photo-1557821552-17105176677c?w=500",
     source_code_link: "https://marche-gamma.vercel.app/",
   },
   {
@@ -112,7 +122,7 @@ const projects = [
       { name: "Fintech", color: "green-text-gradient" },
       { name: "Security", color: "blue-text-gradient" },
     ],
-    image: kolopay,
+    image: "https://images.unsplash.com/photo-1554224155-8d04cb27cd6c?w=500",
     source_code_link: "https://kolopay-six.vercel.app/",
   },
   {
@@ -122,7 +132,7 @@ const projects = [
       { name: "Cloud", color: "blue-text-gradient" },
       { name: "Infrastructure", color: "orange-text-gradient" },
     ],
-    image: maccloud,
+    image: "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=500",
     source_code_link: "https://mac-cloud.vercel.app/",
   },
 ];
